@@ -1,0 +1,7 @@
+C:\Users\Ryan\documents\visual studio 2015\Projects\PrisonTextGame\PrisonTextGame.Core\obj\Debug\PrisonTextGame.Core.csprojResolveAssemblyReference.cache
+C:\Users\Ryan\documents\visual studio 2015\Projects\PrisonTextGame\PrisonTextGame.Core\bin\Debug\PrisonTextGame.Core.dll
+C:\Users\Ryan\documents\visual studio 2015\Projects\PrisonTextGame\PrisonTextGame.Core\bin\Debug\PrisonTextGame.Core.pdb
+C:\Users\Ryan\documents\visual studio 2015\Projects\PrisonTextGame\PrisonTextGame.Core\bin\Debug\UnityEngine.dll
+C:\Users\Ryan\documents\visual studio 2015\Projects\PrisonTextGame\PrisonTextGame.Core\bin\Debug\UnityEngine.xml
+C:\Users\Ryan\documents\visual studio 2015\Projects\PrisonTextGame\PrisonTextGame.Core\obj\Debug\PrisonTextGame.Core.dll
+C:\Users\Ryan\documents\visual studio 2015\Projects\PrisonTextGame\PrisonTextGame.Core\obj\Debug\PrisonTextGame.Core.pdb

@@ -1,0 +1,66 @@
+Mono path[0] = 'C:/Users/Ryan/Documents/Visual Studio 2015/Projects/PrisonTextGame/Build/PrisonTextGame_Data/Managed'
+Mono config path = 'C:/Users/Ryan/Documents/Visual Studio 2015/Projects/PrisonTextGame/Build/PrisonTextGame_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Ryan/Documents/Visual Studio 2015/Projects/PrisonTextGame/Build/PrisonTextGame_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55486
+Multi-casting "[IP] 192.168.1.2 [Port] 55486 [Flags] 2 [Guid] 8626373 [EditorId] 2230440328 [Version] 1048832 [Id] WindowsPlayer(Daddy-PC) [Debug] 0" to [225.0.0.222:54997]...
+Started listening to [0.0.0.0:55486]
+PlayerConnection already initialized - listening to [0.0.0.0:55486]
+Player data archive not found at `C:/Users/Ryan/Documents/Visual Studio 2015/Projects/PrisonTextGame/Build/PrisonTextGame_Data/data.unity3d`, using local filesystem
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6084 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\PrisonTextGame.Core.dll (this message is harmless)
+Loading C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\PrisonTextGame.Core.dll into Unity Child Domain
+Platform assembly: C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\Build\PrisonTextGame_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.328 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.464845 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.157275 ms
+System memory in use before: 18.3 MB.
+System memory in use after: 18.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 285.
+Total: 0.169136 ms (FindLiveObjects: 0.017450 ms CreateObjectMapping: 0.014765 ms MarkObjects: 0.131550 ms  DeleteObjects: 0.004698 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+InvalidOperationException: Collection was modified; enumeration operation may not execute.
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.KeyCode].VerifyState () [0x00047] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:780 
+  at System.Collections.Generic.List`1+Enumerator[UnityEngine.KeyCode].MoveNext () [0x00000] in /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs:784 
+  at GameManager.Update () [0x00054] in C:\Users\Ryan\Documents\Visual Studio 2015\Projects\PrisonTextGame\PrisonTextGame.Unity\PrisonTextGame\Assets\Scripts\GameManager.cs:36 
+ 
+(Filename: /Users/builduser/buildslave/mono/build/mcs/class/corlib/System.Collections.Generic/List.cs Line: 780)
+
+UnloadTime: 1.553776 ms
+System memory in use before: 18.4 MB.
+System memory in use after: 18.5 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 302.
+Total: 0.146987 ms (FindLiveObjects: 0.016108 ms CreateObjectMapping: 0.012081 ms MarkObjects: 0.113093 ms  DeleteObjects: 0.004362 ms)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 319c -> priority: 1 
+  Thread -> id: 3fa0 -> priority: 1 
+  Thread -> id: 4714 -> priority: 1 
+  Thread -> id: 178c -> priority: 1 
